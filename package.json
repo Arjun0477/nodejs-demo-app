@@ -1,0 +1,13 @@
+{
+  "name": "nodejs-demo-app",
+  "version": "1.0.0",
+  "description": "Node.js CI/CD demo application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
