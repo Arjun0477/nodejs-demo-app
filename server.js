@@ -1,8 +1,12 @@
+
 const http = require('node:http');
 
 function createServer() {
   return http.createServer((req, res) => {
-    res.writeHead(200, { 'Content-Type': 'text/plain' });
+    res.writeHead(200, {
+      'Content-Type': 'text/plain'
+    });
+
     res.end('Hello! Node.js CI/CD Pipeline is working.');
   });
 }
